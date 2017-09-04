@@ -1,0 +1,4 @@
+include ':app'
+include 'sm'
+project(':sm').projectDir = new File(settingsDir,'../slidingMenuLibrary')
+

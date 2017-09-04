@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/ic_usb_cover_default"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="15dp" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/list_miniplayLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center" >
+
+            <ImageButton
+                android:id="@+id/btn_playAndPause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="#00000000"
+                android:src="@drawable/ic_music_play" >
+            </ImageButton>
+            <!-- previous -->
+
+            <ImageButton
+                android:id="@+id/btn_playPre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/btn_playAndPause"
+                android:background="#000a0000"
+                android:paddingRight="40dp"
+                android:src="@drawable/selector_previous_button" >
+            </ImageButton>
+
+            <!-- next -->
+
+            <ImageButton
+                android:id="@+id/btn_playNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/btn_playAndPause"
+                android:background="#00000000"
+                android:paddingLeft="40dp"
+                android:src="@drawable/selector_next_button" >
+            </ImageButton>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

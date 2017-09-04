@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="actionbar_home_width">190dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">20dp</dimen>
+
+<!--File Selector-->
+    <dimen name="file_selector_list_item_height">50dp</dimen>
+    <dimen name="file_selector_title_height">54dp</dimen>
+    <dimen name="file_selector_bottom_height">50dp</dimen>
+    <dimen name="file_selector_toast_bar_height">50dp</dimen>
+    <dimen name="file_selector_title_size">24sp</dimen>
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_machine_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:text="蓝牙音箱当前版本: "
+        android:textColor="#212121"
+        android:textSize="22sp"/>
+
+    <LinearLayout
+        android:id="@+id/ota_info_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_firmware_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="#727272"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tv_file_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="#727272"
+            android:textSize="16sp"/>
+        <Button
+            android:id="@+id/btn_upgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_gravity="center_horizontal"
+            android:text="升级"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/select_container"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal">
+    <Button
+    android:id="@+id/btn_select_fw"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:text="选择固件文件"
+    android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/btn_select_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="选择歌曲文件"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/update_info_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/tv_progress_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="正在升级到 版本固件..."
+            android:textColor="#727272"
+            android:textSize="16sp"/>
+
+        <com.actions.bluetoothbox.widget.NumberProgressBar
+            android:id="@+id/pb_ota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_progress_version"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/tv_size_remain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/pb_ota"
+            android:layout_below="@id/pb_ota"
+            android:layout_margin="8dp"
+            android:text=""
+            android:textColor="#727272"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_time_remain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/pb_ota"
+            android:layout_below="@id/pb_ota"
+            android:layout_margin="8dp"
+            android:text="剩余时间  "
+            android:textColor="#727272"
+            android:textSize="16sp"/>
+         <Button
+            android:id="@+id/btn_cancel_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_time_remain"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="60dp"
+            android:text="取消升级"
+            android:textColor="@android:color/white"/>
+        <Button
+            android:id="@+id/btn_pause_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_time_remain"
+            android:layout_toLeftOf="@id/btn_cancel_update"
+            android:layout_marginTop="20dp"
+            android:text="暂停升级"
+            android:textColor="@android:color/white"/>
+        <Button
+            android:id="@+id/btn_continue_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_time_remain"
+            android:layout_toLeftOf="@id/btn_cancel_update"
+            android:layout_marginTop="20dp"
+            android:text="继续升级"
+            android:visibility="gone"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_update_vram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="更新Vram"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

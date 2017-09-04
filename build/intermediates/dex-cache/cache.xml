@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\hnche\.gradle\caches\modules-2\files-2.1\org.objenesis\objenesis\2.1\87c0ea803b69252868d09308b4618f766f135a96\objenesis-2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="87c0ea803b69252868d09308b4618f766f135a96">
+        <dex dex="D:\work\project\APK_v2.09.6a1a\BluetoothBox\app\build\intermediates\pre-dexed\mock\debug\objenesis-2.1_a1767db65d4fe40dbfb75d6f578535ee4c94581f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\work\project\APK_v2.09.6a1a\BluetoothBox\app\libs\ibluz 1.1.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7be5e7c4fd274ffa5abec520a9d67cb92405d1e3">
+        <dex dex="D:\work\project\APK_v2.09.6a1a\BluetoothBox\app\build\intermediates\pre-dexed\mock\debug\ibluz 1.1.4_18eca3ae2ccd237fec681a7ab1369c2df41ded86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hnche\.gradle\caches\modules-2\files-2.1\org.mockito\mockito-core\1.10.19\e8546f5bef4e061d8dd73895b4e8f40e3fe6effe\mockito-core-1.10.19.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e8546f5bef4e061d8dd73895b4e8f40e3fe6effe">
+        <dex dex="D:\work\project\APK_v2.09.6a1a\BluetoothBox\app\build\intermediates\pre-dexed\mock\debug\mockito-core-1.10.19_b5a878cc8e13f04806da0f8bc419ca17dbc949c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hnche\.gradle\caches\modules-2\files-2.1\com.belerweb\pinyin4j\2.5.0\5a620aedec0f779f2123ba60fd4b74bfbd3e2646\pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5a620aedec0f779f2123ba60fd4b74bfbd3e2646">
+        <dex dex="D:\work\project\APK_v2.09.6a1a\BluetoothBox\app\build\intermediates\pre-dexed\mock\debug\pinyin4j-2.5.0_f5ab25f3e9bab5eb380f3ad3a967f7e5a21e3671.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hnche\.android\build-cache\b0008190338b8f29d2e4d2cd4361650835dee29e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49">
+        <dex dex="D:\work\project\APK_v2.09.6a1a\BluetoothBox\app\build\intermediates\pre-dexed\mock\debug\classes_59bc028bcc4cdff4ff820abd714a79042723c5a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\work\project\APK_v2.09.6a1a\slidingMenuLibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a7a1f9e972fe41a594f02492b3e5dd82036e0a77">
+        <dex dex="D:\work\project\APK_v2.09.6a1a\BluetoothBox\app\build\intermediates\pre-dexed\mock\debug\classes_56d07012e6264c45b310c24d7295ad6deda846ce.jar" />
+    </item>
+
+</items>

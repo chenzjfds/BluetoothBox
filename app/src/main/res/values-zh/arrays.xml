@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_eq_type">
+
+        <!-- <item>Normal</item> -->
+        <item>爵士</item>
+        <item>流行</item>
+        <item>经典</item>
+        <item>柔和</item>
+        <item>重低音</item>
+        <item>摇滚</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="array_dae_type">
+        <item>低音增强</item>
+        <item>高音增强</item>
+      <!--<item>虚拟环绕</item>
+        <item>喇叭补偿</item>-->
+        <item>多段参数均衡器</item>
+        <item>动态范围控制</item>
+        <item>音效增强</item>
+        <item>音效减弱</item>
+    </string-array>
+    <string-array name="array_dialog_normal">
+        <item>提示</item>
+        <item>确认</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="array_dialog_usbinsert">
+        <item>检测到USB设备插入</item>
+        <item>进入USB音箱</item>
+        <item>仅充电</item>
+    </string-array>
+    <string-array name="array_message_body">
+        <item>选择进入音箱，将会与设备断开连接</item>
+    </string-array>
+
+</resources>

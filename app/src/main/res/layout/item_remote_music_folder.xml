@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minHeight="55dp"
+    android:padding="6dp">
+
+    <ImageView
+        android:id="@+id/image_folder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:src="@drawable/selector_ic_music_folder" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/image_folder"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_folder_name"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            tools:text="wfwfwfwfwffff"
+            tools:textColor="@color/firebrick" />
+
+        <TextView
+            android:id="@+id/text_folder_music_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/text_folder_name"
+            android:layout_below="@id/text_folder_name"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            tools:text="2首"
+            tools:textColor="@color/firebrick" />
+    </LinearLayout>
+
+
+</RelativeLayout>
