@@ -34,9 +34,10 @@ android {
         mock{
             //mock is only used in androidTest
             applicationIdSuffix '.mock'
+           // applicationIdSuffix '.prod'
         }
         prod{
-
+          //  applicationIdSuffix '.prod'
         }
     }
 

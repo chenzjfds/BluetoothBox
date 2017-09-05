@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BluetoothBox.iml" filepath="$PROJECT_DIR$/BluetoothBox.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../slidingMenuLibrary/sm.iml" filepath="$PROJECT_DIR$/../slidingMenuLibrary/sm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingMenuLibrary/sm.iml" filepath="$PROJECT_DIR$/slidingMenuLibrary/sm.iml" />
     </modules>
   </component>
 </project>

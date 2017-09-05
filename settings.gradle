@@ -1,4 +1,4 @@
 include ':app'
 include 'sm'
-project(':sm').projectDir = new File(settingsDir,'../slidingMenuLibrary')
+project(':sm').projectDir = new File(settingsDir,'/slidingMenuLibrary')
 
